@@ -1,14 +1,13 @@
-// FULL SCRIPT BELOW:
 // How to connect your Telegram Bot to a Google Spreadsheet (Google Apps Script)
 // https://www.youtube.com/watch?v=mKSXd_od4Lg
 // 
-// FILL IN THE GLOBAL VARIABLES token, webAppUrl and ssId
-//
+// This code must be added to the Google Apps Script file attached to the spreadsheet script editor. 
+// Full steps in the readme
 
-var token = ""; // FILL IN YOUR OWN TOKEN
+var token = ""; // 1. FILL IN YOUR OWN TOKEN
 var telegramUrl = "https://api.telegram.org/bot" + token;
-var webAppUrl = ""; // FILL IN YOUR GOOGLE WEB APP ADDRESS
-var ssId = ""; // FILL IN THE ID OF YOUR SPREADSHEET
+var webAppUrl = ""; // 2. FILL IN YOUR GOOGLE WEB APP ADDRESS
+var ssId = ""; // 3. FILL IN THE ID OF YOUR SPREADSHEET
 
 function getMe() {
   var url = telegramUrl + "/getMe";
@@ -35,6 +34,7 @@ function doGet(e) {
 function doPost(e) {
   // this is where telegram works
   var data = JSON.parse(e.postData.contents);
+  //GmailApp.sendEmail(Session.getEffectiveUser().getEmail(),"Telegram Bot Update", JSON.stringify(data,null,4))
   var text = data.message.text;
   var id = data.message.chat.id;
   var name = data.message.chat.first_name + " " + data.message.chat.last_name;
