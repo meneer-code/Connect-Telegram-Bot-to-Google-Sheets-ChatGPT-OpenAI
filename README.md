@@ -9,5 +9,10 @@ Connect Telegram Bot to Google Sheets via Google Apps Scripts. This video explai
 ## Step 2: Setting up Google Apps Script
 Create a new Google Sheet in Google Drive. Go to script editor (Tools > Script Editor) and paste the code into the newly created code.gs file. Once done, deply the script as a web application. You will get a URL to use in the code.gs file.
 
+- Run `getMe()` and `setWebhook()` to initialise the integration.
+
 ## Step 3: Add your Spreadsheet ID to the Script
 Find your Google Sheet ID in the URL: `https://docs.google.com/spreadsheets/d/{ID_HERE}/edit` and past it into the code.gs file.
+
+## Step 4: Add your Telegram ID to the Script for error catching
+After you seccusfully communicated with the bot, your chat ID should be in the recording spreadsheet entries. Copy and past this into the `adminID` variable in the script
