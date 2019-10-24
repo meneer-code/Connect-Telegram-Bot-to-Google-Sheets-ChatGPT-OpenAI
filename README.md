@@ -1,4 +1,4 @@
-# Connect-Telegram-Bot-to-Google-Sheets
+# Connect Telegram Bot to Google Sheets
 Connect Telegram Bot to Google Sheets via Google Apps Scripts. This video explains all steps in detail: https://www.youtube.com/watch?v=24EyItKfm50&list=PLGGHwNnXfci86dfqIVLc5l391SPk-RX1F
 
 ## Step 1: Setting up the Telegram Bot
