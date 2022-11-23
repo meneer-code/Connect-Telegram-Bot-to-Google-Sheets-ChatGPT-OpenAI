@@ -3,7 +3,7 @@ Connect Telegram Bot to Google Sheets via Google Apps Scripts. This video explai
 
 ## Step 1: Setting up the Telegram Bot
 - Go to [Telegram for Web](https://web.telegram.org/)
-- Search for BothFather
+- Search for BotFather
 - Use /newbot to create a bot. This will give you an access token to use in your script. For further Telegram information, RTFM at (https://core.telegram.org/bots/api)
 
 ## Step 2: Setting up Google Apps Script
