@@ -47,4 +47,4 @@ The script also includes the following functions:
 
 ## 🚨 Please Note 🚨
 I'm not entirely sure if it's the best idea to define sensitive data in the Script Properties section of Google Apps Script. Please be aware of this.
-![Script Properties](https://github.com/meneer-code/Connect-Telegram-Bot-to-Google-Sheets/script-properties.jpg?raw=true)
+![Script Properties](https://github.com/meneer-code/Connect-Telegram-Bot-to-Google-Sheets/blob/master/script-properties.jpg?raw=true)
