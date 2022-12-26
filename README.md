@@ -19,7 +19,6 @@ Find your Google Sheet ID in the URL: `https://docs.google.com/spreadsheets/d/{I
 After you seccusfully communicated with the bot, your chat ID should be in the recording spreadsheet entries. Copy and past this into the `adminID` variable in the script
 
 # 2. Create OpenAI ChatGPT like bot in Telegram (openai.gs)
-See XXXX
 A simple Google Apps Script that provides an output to a user input in Telegram, and saving the question + answer + error (if applicable) to a Google Sheet.
 Please note that this script can not (yet) 'remember' the conversation or take feedback to previous questions. It will evaluate a single inout with a single output.
 This script will serve as a starting point for those who want to add extra functionality, and I welcome you to add features with pull requests.
@@ -48,3 +47,4 @@ The script also includes the following functions:
 
 ## 🚨 Please Note 🚨
 I'm not entirely sure if it's the best idea to define sensitive data in the Script Properties section of Google Apps Script. Please be aware of this.
+![Script Properties](https://github.com/meneer-code/Connect-Telegram-Bot-to-Google-Sheets/script-properties.jpg?raw=true)
