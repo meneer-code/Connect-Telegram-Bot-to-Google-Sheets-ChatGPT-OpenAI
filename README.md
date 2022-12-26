@@ -1,9 +1,10 @@
 Connect Telegram Bot to Google Sheets via Google Apps Scripts. Includes integration with OpenAI for a ChatGPT Telegram bot
 
-See (1) for a simple Telegram to Google Sheets integration
-See (2) for an integration from Telegram > Google Sheets > OpenAI > Google Sheets > Telegram integration
+- See (1) for a simple Telegram to Google Sheets integration<br>
+- See (2) for an integration from Telegram > Google Sheets > OpenAI > Google Sheets > Telegram integration
 
-# 1. Integrate Telegram Bot with Google Sheets (sheets-simple.gs)
+# 1. Integrate Telegram Bot with Google Sheets
+### [sheets-simple.gs]([https://web.telegram.org/](https://github.com/meneer-code/Connect-Telegram-Bot-to-Google-Sheets-ChatGPT-OpenAI/blob/master/sheets-simple.gs))
 ## Connect Telegram Bot to Google Sheets
 This video explains all steps in detail: https://www.youtube.com/watch?v=24EyItKfm50&list=PLGGHwNnXfci86dfqIVLc5l391SPk-RX1F
 
@@ -24,6 +25,7 @@ Find your Google Sheet ID in the URL: `https://docs.google.com/spreadsheets/d/{I
 After you seccusfully communicated with the bot, your chat ID should be in the recording spreadsheet entries. Copy and past this into the `adminID` variable in the script
 
 # 2. Create OpenAI ChatGPT like bot in Telegram (openai.gs)
+### [openai.gs]([[https://web.telegram.org/](https://github.com/meneer-code/Connect-Telegram-Bot-to-Google-Sheets-ChatGPT-OpenAI/blob/master/sheets-simple.gs](https://github.com/meneer-code/Connect-Telegram-Bot-to-Google-Sheets-ChatGPT-OpenAI/blob/master/openai.gs)))
 A simple Google Apps Script that provides an output to a user input in Telegram, and saving the question + answer + error (if applicable) to a Google Sheet.
 Please note that this script can not (yet) 'remember' the conversation or take feedback to previous questions. It will evaluate a single inout with a single output.
 This script will serve as a starting point for those who want to add extra functionality, and I welcome you to add features with pull requests.
