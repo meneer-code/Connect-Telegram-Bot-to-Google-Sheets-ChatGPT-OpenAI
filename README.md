@@ -36,14 +36,14 @@ Script Inputs:
 
 
 The script then includes a number of functions that handle different tasks:
-- getMe: Sends a request to the Telegram API to get information about the bot.
-- setWebhook: Sends a request to the Telegram API to set up a webhook for the bot.
-- doPost: Handles webhook requests from Telegram. This function is called whenever the bot receives a message from a user. It parses the request body, gets the message from the request, and writes the question to the 'question' column in a Google Sheets document. It then sends the question to the OpenAI API using the sendToOpenAI function, writes the answer to the 'answer' column in the Google Sheets document, and sends the answer back to the Telegram chat using the sendToTelegram function.
+- `getMe`: Sends a request to the Telegram API to get information about the bot.
+- `setWebhook`: Sends a request to the Telegram API to set up a webhook for the bot.
+- `doPost`: Handles webhook requests from Telegram. This function is called whenever the bot receives a message from a user. It parses the request body, gets the message from the request, and writes the question to the 'question' column in a Google Sheets document. It then sends the question to the OpenAI API using the sendToOpenAI function, writes the answer to the 'answer' column in the Google Sheets document, and sends the answer back to the Telegram chat using the sendToTelegram function.
 
 The script also includes the following functions:
-- sendToOpenAI: Sends a request to the OpenAI API with the specified text and returns the response.
-- sendToTelegram: Sends a message to the specified Telegram chat with the specified text.
-- writeToSheet: Writes the specified text to the specified column in the Google Sheets document.
+- `sendToOpenAI`: Sends a request to the OpenAI API with the specified text and returns the response.
+- `sendToTelegram`: Sends a message to the specified Telegram chat with the specified text.
+- `writeToSheet`: Writes the specified text to the specified column in the Google Sheets document.
 
 ## 🚨 Please Note 🚨
 I'm not entirely sure if it's the best idea to define sensitive data in the Script Properties section of Google Apps Script. Please be aware of this.
