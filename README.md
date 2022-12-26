@@ -27,6 +27,12 @@ The script starts by defining a list of allowed user IDs that are authorized to 
 
 The script uses the `completions` API enpoint with the `text-davinci-003` set to `max_tokens` = 100.
 
+Below is an example of the Telegram Chat and response:
+![Script Properties](https://github.com/meneer-code/Connect-Telegram-Bot-to-Google-Sheets/blob/master/telegram-chat.png?raw=true)
+
+Below is an example of the questions and answers saved to Google Sheets:
+![Script Properties](https://github.com/meneer-code/Connect-Telegram-Bot-to-Google-Sheets/blob/master/openai-google-sheets.png?raw=true)
+
 Script Inputs:
 - `ALLOWED_USER_IDS`: A list of user IDs that are allowed to chat with the bot
 - `BOT_TOKEN`: Script Property with key *bot_token* defined in Settings > Script Properties. Get this from @BotFather in Telegram
