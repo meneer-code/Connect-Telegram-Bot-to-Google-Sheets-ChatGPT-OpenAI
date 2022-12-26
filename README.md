@@ -28,10 +28,10 @@ The script starts by defining a list of allowed user IDs that are authorized to 
 The script uses the `completions` API enpoint with the `text-davinci-003` set to `max_tokens` = 100.
 
 Below is an example of the Telegram Chat and response:
-![Script Properties](https://github.com/meneer-code/Connect-Telegram-Bot-to-Google-Sheets/blob/master/telegram-chat.png?raw=true)
+![Script Properties](https://github.com/meneer-code/Connect-Telegram-Bot-to-Google-Sheets/blob/master/screenshots/telegram-chat.png?raw=true)
 
 Below is an example of the questions and answers saved to Google Sheets:
-![Script Properties](https://github.com/meneer-code/Connect-Telegram-Bot-to-Google-Sheets/blob/master/openai-google-sheets.png?raw=true)
+![Script Properties](https://github.com/meneer-code/Connect-Telegram-Bot-to-Google-Sheets/blob/master/screenshots/openai-google-sheets.png?raw=true)
 
 Script Inputs:
 - `ALLOWED_USER_IDS`: A list of user IDs that are allowed to chat with the bot
@@ -53,4 +53,4 @@ The script also includes the following functions:
 
 ## 🚨 Please Note 🚨
 I'm not entirely sure if it's the best idea to define sensitive data in the Script Properties section of Google Apps Script. Please be aware of this.
-![Script Properties](https://github.com/meneer-code/Connect-Telegram-Bot-to-Google-Sheets/blob/master/script-properties.jpg?raw=true)
+![Script Properties](https://github.com/meneer-code/Connect-Telegram-Bot-to-Google-Sheets/blob/master/screenshots/script-properties.jpg?raw=true)
